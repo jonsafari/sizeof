@@ -6,9 +6,9 @@ Feel free to add to this, via pull request.
 In bits
 
 | Language | Boolean | Char | Short | Int | Long | Float | Double | Array of Ints | Array of Reals |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | C       | 1 | 8 | 16 | 32 | 64 | 32 | 64 | 32*n* | 32*n* |
-| Julia   | 8 | 8 | 16 | 32 | 64 | 32 | 64 | 64*n* | 64*n*
+| Julia   | 8 | 8 | 16 | 32 | 64 | 32 | 64 | 64*n* | 64*n* |
 | Perl5   | 192 | - | - | - | 192 | - | 192 | 512 + 64*n* | 512 + 64*n* |
 | Python2 | 192 | - | - | - | 192 | - | 192 | 576 + 64*n* | 576 + 64*n* |
 | Python3 | 224 | - | - | - | 224 | - | 192 | 512 + 64*n* | 512 + 64*n* |
