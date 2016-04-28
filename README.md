@@ -12,6 +12,7 @@ In bits
 | Perl5    | 192     | -    | -     | -   | 192  | -     | 192    | 512 + 64*n*   | 512 + 64*n*    |
 | Python2  | 192     | -    | -     | -   | 192  | -     | 192    | 576 + 64*n*   | 576 + 64*n*    |
 | Python3  | 224     | -    | -     | -   | 224  | -     | 192    | 512 + 64*n*   | 512 + 64*n*    |
+| R        | 384     | -    | -     | -   | 384  | -     | 384    | 320 + 64*n*   | 320 + 64*n*    |
 | Swift    | 8       | 8    | 16    | 32  | 64   | 32    | 64     | 64*n*         | 64*n*          |
 
 
@@ -105,6 +106,20 @@ sys.getsizeof('')
 sys.getsizeof('a')
 sys.getsizeof('ab')
 sys.getsizeof('abc')
+```
+
+## R
+
+```
+object.size(T)
+object.size(1)
+object.size(1.5)
+object.size(c(1))
+object.size(c(1,1))
+object.size(c(1,1,1))
+object.size(c(1.0))
+object.size(c(1.0,1.0))
+object.size(c(1.0,1.0,1.0))
 ```
 
 ## Swift
